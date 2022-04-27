@@ -23,4 +23,8 @@ export class HeroeComponent{
         this.nombre="Spiderman";
     }
 
+    cambiarEdad():number{
+        return this.edad=40;
+    }
+
 }
